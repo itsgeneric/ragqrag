@@ -1,0 +1,60 @@
+# =========================
+# Environment Variables (Keep Secrets Safe!)
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Python & Backend (Flask/FastAPI)
+# =========================
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Compiled byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and Logging
+.pytest_cache/
+.coverage
+*.log
+
+# =========================
+# Node.js, Vite & Frontend
+# =========================
+# Dependencies
+node_modules/
+/ragqrag-frontend/node_modules/
+
+/ragqrag-backend/.env
+/ragqrag-backend/.deployment
+/ragqrag-backend/.vscode
+
+# Build Outputs (Vite/TypeScript)
+dist/
+dist-ssr/
+build/
+/ragqrag-frontend/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Caches
+.eslintcache
+.tsbuildinfo
+
+# =========================
+# IDEs and OS Specific
+# =========================
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
